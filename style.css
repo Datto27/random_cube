@@ -1,0 +1,53 @@
+
+html {
+    font-family: sans-serif;
+    background-color: grey;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.starter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn {
+    height: 4rem;
+    width: 8rem;
+    border: none;
+    background-color: gold;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px black;
+    transition: .5s;
+}
+.btn:hover {background-color: goldenrod;}
+#container {
+    display: none;
+    width: 400px;
+    height: 500px;
+    margin: 40px;
+    background-color: rgb(250, 186, 91);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+#player {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+}
+#score {
+    text-align: center;
+    color: rgb(44, 44, 44);
+}
+#timer {
+    text-align: center;
+    font-weight: bold;
+}
+
